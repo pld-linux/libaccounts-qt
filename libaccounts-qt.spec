@@ -18,6 +18,7 @@ BuildRequires:	libaccounts-glib-devel
 BuildRequires:	pkgconfig
 BuildRequires:	qt5-build >= 5
 BuildRequires:	qt5-qmake >= 5
+BuildRequires:	rpm-build >= 4.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
